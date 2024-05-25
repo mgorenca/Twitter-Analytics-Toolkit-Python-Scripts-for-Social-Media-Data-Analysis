@@ -35,7 +35,6 @@ for lang, count in language_count.items():
 percentage = (count / total_tweets) * 100
 print(f"{lang}: {percentage:.2f}%")
 
-13.2)
 
 import tweepy
 
@@ -71,7 +70,6 @@ print(f"Total tweets: {total_tweets}")
 print(f"Retweets: {retweet_count}")
 print(f"Percentage of retweets: {percentage_retweets:.2f}%")
 
-13.3)
 
 import tweepy
 
@@ -108,7 +106,6 @@ print(f"Total tweets: {total_tweets}")
 print(f"Extended tweets: {extended_tweet_count}")
 print(f"Percentage of extended tweets: {percentage_extended_tweets:.2f}%")
 
-13.4)
 
 import tweepy
 
@@ -135,7 +132,6 @@ print(f"Name: {user.name}")
 print(f"Screen Name: {user.screen_name}")
 print(f"Description: {user.description}")
 
-13.5)
 
 import tweepy
 
